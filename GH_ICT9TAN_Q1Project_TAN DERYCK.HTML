@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>The sneaker store</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		.header {
+			text-align: center;
+			padding: 10px;
+			font-family: courier;
+			background-color:#f2f2f2 ;
+		
+			
+		}
+		body {
+			background-color:#000000;
+		}
+		li {
+			display: inline;
+		}
+		ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+		.sign-up-form {font-family: Georgia;
+			background-color: #b3b3ff;
+			color: #FFFFFF;
+			border-radius: 10px;
+			padding: 10px;
+			margin: .5%;
+			text-align: center;
+			display: flex;
+			justify-content: space-between;
+		}
+		.bestsellers {font-family: Georgia;
+			background-color: #99ccff;
+			color: #FFFFFF;
+			border-radius: 10px;
+			padding: 10px;
+			margin: .5%;
+			text-align: center;
+		}
+		.products {font-family: Georgia;
+			background-color: #ccccff;
+			color: #FFFFFF;
+			padding: 10px;
+			margin: .5%;
+			text-align: center;
+		}
+		.cards {display: flex;
+			justify-content: space-between;
+		}
+		.card {
+			font-family: Georgia;
+			background-color: #ffe6cc;
+			color: #FFFFFF;
+			padding: 10px;
+			margin: .5%;
+			box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+			transition: 0.3s;
+			width: 50%;
+		}
+		.container {
+			padding: 2px 16px;
+		}
+		.footer {
+			background-color:#ffe6b3;
+			text-align: center;
+			padding: 10px;
+			position: fixed;
+			width: 100%;
+			bottom: 0;
+			font-family: Georgia;
+			color: #FFFFFF;
+		}
+		.forms {font-family: Georgia;
+			background-color: #80bfff;
+			color: #FFFFFF;
+			padding: 10px;
+			margin: .5%;
+			width: 50%;
+		}
+		.main {
+			position: fixed;
+			top: 50%;
+			left: 50%;
+			height: 1px;
+			width: 1px;
+			background-color:#b3ffd9;
+			border-radius: 50%;
+		}
+		.topnav {
+			overflow: hidden;
+			font-family: Georgia;
+			background-color: #99d6ff;
+			border-radius: 10px;
+			padding: 10px;
+			margin: .5%;
+		}
+		.topnav ul {
+			display: flex;
+			justify-content: space-between;
+		}
+		.topnav a {
+			color: #000000
+;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+		.topnav a:hover {
+			background-color: #000000
+;
+			color: black;
+		}
+	</style>
+</head>
+<body>
+	<div class="main"></div>
+	<div class="header" id="The Sneaker store ">
+		<p><i> Welcome to The sneaker store! </i></p>
+	</div>
+	<div class="topnav">
+		<ul>
+			<li><strong><a href="#Sneaker store">The sneaker store</a></strong></li>
+			<li><a href="#artistReccomendations">Shoe Recommendations</a></li>
+			<li><a href="#shoes">Shoes</a></li>
+			<li><a href="#signup">Sign-up</a></li>
+			<li><a href="#login">Login</a></li>
+		</ul>
+	</div>
+	<div class="bestsellers" id="shoe Reccomendations">
+		<h3> Bestseller jordans</h3>
+	<div class="shoes">
+		<div class="shoes ">
+			<img src="https://grailify.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMWVKQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--3d61d86e69e8dbaf975929fc7d56be42ea13eab1/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RW5KbGMybDZaVjkwYjE5bWFYUmJCMmtDSUFOcEFpQURPZ3h4ZFdGc2FYUjVhVjg9IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--ea1da7d273fb4fac2f3bf305727b365ca4d6c39a/Image%202"  style="width:75%">
+			<div class="container">
+				<h4><b> Travis scott fragment1  </b></h4>
+				<p> ₱5,200 </p>
+			</div>
+		</div>
+		<div class="card">
+			<img src="https://www.travelandleisure.com/thmb/GrTwS9uLl928zA3sZlLCVHxK48c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/nike-air-force-1-07-sneaker-tout-9357f30a2d724401a7068dec3ea51a0e.jpg"  style="width:75%">
+			<div class="container">
+				<h4><b> Air Force 1 </b></h4>
+				<p> ₱6,800 </p>
+			</div>
+		</div>
+		<div class="card">
+			<img src="https://m.media-amazon.com/images/I/61VlRh9LI9L._AC_SL1500_.jpg"  style="width:75%">
+			<div class="container">
+				<h4><b> jordan1 mocha </b></h4>
+				<p> ₱3,600 </p>
+			</div>
+		</div>
+	</div>
+	</div>
+	<div class="products" id="albums">
+		<h3> Our products </h3>
+		<div class="cards">
+			<div class="card">
+				<img src="https://www.outbacksylt.com/files/image/id/29692/fixed/1/w/1000/h/1000/n/adidas-samba-og-white-b75806-1.jpg"  style="width:75%">
+				<div class="container">
+					<h4><b> Samba </b></h4>
+					<p> ₱4,800 </p>
+				</div>
+			</div>
+			<div class="card">
+				<img src="https://shoenami.com.ph/cdn/shop/files/EG7490.png?v=1689146921&width=2048"  style="width:75%">
+				<div class="container">
+					<h4><b> yeezy boost clay </b></h4>
+					<p> ₱9,500 </p>
+				</div>
+			</div>
+			<div class="card">
+				<img src="https://welleofficial.co.za/cdn/shop/products/image_2f628e9f-ee0f-4865-828d-acae97d75ae6.webp?v=1653903810"  style="width:75%">
+				<div class="container">
+					<h4><b> Air jordan 1 </b></h4>
+					<p> ₱15,000,000 </p>
+				</div>
+			</div>
+			<div class="card">
+				<img src="https://www.bimstoreph.com/cdn/shop/products/1_167_68a43b93-db8a-46dc-92f9-919ccf401405.jpg?v=1628212551"  style="width:75%">
+				<div class="container">
+					<h4><b> Yeezy 350 Reflective  </b></h4>
+					<p> ₱7,800 </p>
+				</div>
+			</div>
+			<div class="card">
+				<img src="https://puresoles.ph/cdn/shop/products/ScreenShot2020-04-28at7.56.51PM.png?v=1620213548"  style="width:75%">
+				<div class="container">
+					<h4><b> Yeezy Zebra  </b></h4>
+					<p> ₱3,300.00 </p>
+				</div>
+			</div>
+			<div class="card">
+				<img src="https://www.bimstoreph.com/cdn/shop/products/1_860fcd4c-3fd6-4261-a3cc-9cff5f503ede.jpg?v=1608340618"  style="width:75%">
+				<div class="container">
+					<h4><b> Yeezy carbon </b></h4>
+					<p> ₱10,500 </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- SIGN UP FORM -->
+<div class="signup form" id="signup">
+	
+</div>
+<div>
+	<form>
+		<h2>-Sign Up-</h2>
+		<label>Name:</label>
+		<input type="text" name="fname">
+
+		<input type="submit" name="submit">
+	</form>
+</div>
+
+<div class="sign-up-form">
+		<div class="forms" id="signup">
+			<form>
+				<h3> Registration </h3>
+				<div>
+					<label for="reg_name"> Name: </label>
+					<input type="text" id="reg_name" name="reg_name" required>
+				</div>
+				<div>
+					<label for="reg_password"> Password: </label>
+					<input type="password" id="reg_password" name="reg_password" required>
+				</div>
+				<br>
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+
+		<div class="forms" id="login">
+			<form>
+				<h3> Login </h3>
+				<div>
+					<label for="login_name"> Name: </label>
+					<input type="text" id="login_name" name="login_name" required>
+				</div>
+				<div>
+					<label for="login_password"> Password: </label>
+					<input type="password" id="login_password" name="login_password" required>
+				</div>
+				<br>
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+	</div>
+
+	<div class="footer">
+		<h3> Deryck Tan | 9-Topaz </h3>
+	</div>
+
+</body>
+</html>
+
